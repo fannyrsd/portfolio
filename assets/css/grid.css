@@ -1,0 +1,40 @@
+body {
+    margin: 0 auto;
+}
+
+/**********
+ ***GRID***
+**********/
+.grid {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+.grid_container {
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.cols {
+    text-align: center;
+    margin-left: 0.6%;
+    margin-right: 0.6%; 
+    width: 12%;
+    height: 100vh;
+    background: red;
+    opacity: 0.3;
+} 
+
+/**********
+ *END GRID*
+**********/
+
+h1 {
+    text-align: center;
+    margin: 0;
+    padding-top: 5%;
+}
