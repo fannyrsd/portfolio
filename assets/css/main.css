@@ -1,6 +1,19 @@
 @font-face {
+    font-family: "Muli-reg";
+    src: url("../font/Muli-Regular.ttf");
+
+    font-family: "Muli-bold";
+    src: url("../font/Muli-Bold.ttf");
+
+    font-family: "Muli-italic";
+    src: url("../font/Muli-Italic.ttf");
+
+    font-family: "Muli-italic";
+    src: url("../font/Muli-Italic.ttf");
+}
+
+body {
     font-family: "Avenir";
-    src: url("../font/Avenir\ Next.ttc");
 }
 
 .nav {
@@ -14,4 +27,8 @@
     display: inline;
     margin-left: 2%;
     margin-right: 2%;
+}
+
+.nav a {
+    text-decoration: none;
 }
